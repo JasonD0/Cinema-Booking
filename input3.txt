@@ -1,0 +1,35 @@
+Cinema 1 A 15  
+Cinema 1 B 20  
+Cinema 2 B 5  
+Cinema 2 X 5   
+Session 1 09:00 Toy Story    
+Session 1 14:30 Ratatouille 
+Session 2 09:00 Up           
+
+# Test booking in random bookingID order 
+# Test randomly chosen bookingID numbers 
+Request 3 2 09:00 3 
+Request 14213 1 09:00 10 
+Request 2 1 09:00 12 
+
+# Test change all requests 
+# Test increasing and decreasing tickets for right cinema and time (ie not increasing/decreasing for previous cinema booking)  
+# Test changing requests in a different order in which they were booked
+Change 14213 1 14:30 7  
+Change 2 2 09:00 2 
+Change 3 1 14:30 3
+
+# Confirm changed all requests
+Print 1 14:30        
+Print 1 09:00
+Print 2 09:00 
+
+# Test cancel all requests
+Cancel 14213
+Cancel 2
+Cancel 3
+
+# Confirm cancelled all requests
+Print 1 14:30        
+Print 1 09:00
+Print 2 09:00 

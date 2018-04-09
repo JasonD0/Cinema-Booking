@@ -1,0 +1,35 @@
+Booking 1 ZY1-ZY5
+Booking 2 ZY1-ZY12
+Booking 3 ZY13
+Booking 4 ABC1-ABC12
+Cancel 2
+Cancel rejected
+Cancel rejected
+Cancel rejected
+Cancel rejected
+Movie3
+Movie1
+ZY: 1-5
+Movie4
+ABC: 1-12
+Change 1 ZY1-ZY7
+Movie1
+ZY: 1-7
+Change 1 ZY1-ZY2
+Movie1
+ZY: 1-2
+Booking 5 ZY3-ZY7
+Movie1
+ZY: 1-2,3-7
+Change 5 ZY3-ZY8
+Movie1
+ZY: 1-2,3-8
+Change 5 ZY3-ZY5
+Movie1
+ZY: 1-2,3-5
+Booking 7 ZY6-ZY17
+Movie1
+ZY: 1-2,3-5,6-17
+Booking 8 ZY18-ZY21
+Movie1
+ZY: 1-2,3-5,6-17,18-21

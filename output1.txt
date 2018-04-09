@@ -1,0 +1,28 @@
+Booking rejected
+Booking 2 A1-A30
+Booking 3 B1-B20
+Booking 4 A1-A30
+Booking 5 B1-B20
+Booking 6 B1-B15
+Booking 7 C1-C51
+Booking 8 A1-A12
+Booking rejected
+Booking rejected
+Booking rejected
+Booking rejected
+Booking rejected
+Booking rejected
+Booking rejected
+Change rejected
+Change rejected
+Movie2
+A: 1-30
+B: 1-20
+Movie4
+A: 1-30
+B: 1-20
+Movie3
+B: 1-15
+C: 1-51
+Movie1
+A: 1-12

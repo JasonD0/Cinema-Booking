@@ -1,0 +1,57 @@
+# Test multiple letter rows in random order(id and row)
+Cinema 3 ABC 13
+Cinema 1 ZY 25   
+Cinema 2 BR 6   
+Cinema 1 XE 3
+  
+Session 1 12:00 Movie1    
+Session 1 15:30 Movie2  
+Session 2 15:30 Movie3  
+Session 3 00:00 Movie4
+        
+Request 1 1 12:00 5    
+
+Request 2 1 15:30 12 
+
+Request 3 1 15:30 1
+
+Request 4 3 00:00 12 
+
+# Test cancel same id multiple times
+Cancel 2             
+Cancel 2
+Cancel 2
+
+# Test cancel with invalid id
+Cancel 234
+Cancel 5
+
+# Test print with no bookings
+Print 2 15:30        
+# Test print with 1 row as output
+Print 1 12:00
+Print 3 00:00
+
+# Test change increasing seats
+Change 1 1 12:00 7
+Print 1 12:00
+
+# Test change decreasing seats
+Change 1 1 12:00 2
+Print 1 12:00 
+
+# Test change increasing and decreasing seats not at first index
+Request 5 1 12:00 5
+Print 1 12:00
+Change 5 1 12:00 6
+Print 1 12:00
+Change 5 1 12:00 3 
+Print 1 12:00
+
+# Test printing rows with more than 2 customer bookings
+Request 7 1 12:00 12
+Print 1 12:00
+Request 8 1 12:00 4
+Print 1 12:00
+
+
